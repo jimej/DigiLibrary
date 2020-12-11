@@ -4,7 +4,7 @@ From IntelliJ, run LibraryApplication
 
 [link to list books](http://localhost:8080/books)  
 
-[link to list books with library book ids for book operations](localhost:8080/books/mappedToIds)  
+[link to list books with library book ids for book operations](http://localhost:8080/books/mappedToIds)  
 
 [add new book](http://localhost:8080/books)  
 POST json body - return book library id
@@ -16,13 +16,13 @@ POST json body - return book library id
 }  
 </code>
 
-[update](http://localhost:8080/books/{id})  
+[update](http://localhost:8080/books/id)  
 PUT json body as above
 
-[get/delete](http://localhost:8080/books/{id}) 
+[get/delete](http://localhost:8080/books/id) 
 GET or DELETE by id
  
-[patch](http://localhost:8080/books/{id})  
+[patch](http://localhost:8080/books/id)  
 PATCH authors json body
 <code>
 {
